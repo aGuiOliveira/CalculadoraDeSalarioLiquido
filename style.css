@@ -1,0 +1,21 @@
+.salario-liquido-form {
+  display: grid;
+  gap: 15px;
+}
+
+.resultado-linha {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+  border-bottom: 1px solid black;
+}
+
+.resultado-linha:last-child {
+  border-bottom: none;
+  font-weight: bold;
+}
+
+.negativo {
+  color: red;
+}

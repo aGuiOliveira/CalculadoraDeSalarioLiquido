@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Salário liquido</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="container">
+    <div>
+      <h1>CALCULADORA DE SALÁRIO LIQUIDO</h1>
+    </div>
+    <div class="form-calcula-ferias">
+      <form name="salario-liquido-form" id="salario-liquido-form" class="salario-liquido-form">
+        <div class="form-div-ferias">
+          <div>
+            <label for="salario-bruto">Salário bruto</label>
+          </div>
+          <input type="text" name="salario-bruto" id="salario-bruto" value="R$ 0,00">
+        </div>
+        <div class="form-div-ferias">
+          <div>
+            <label for="numero-dependentes">Numero de dependentes</label>
+          </div>
+          <input type="number" name="numero-dependentes" id="numero-dependentes" value="0" min="0">
+        </div>
+        <div class="form-div-ferias">
+          <div>
+            <label for="outros-descontos">Outros descontos</label>
+          </div>
+          <input type="text" name="outros-descontos" id="outros-descontos" value="R$ 0,00">
+        </div>
+        <div class="salario-calcular-btn-div">
+          <button class="calcular-btn" id="salario-calcular-btn">CALCULAR</button>
+        </div>
+      </form>
+      <div class="respostas-calculo-salario">
+        <h1>Resultado</h1>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
